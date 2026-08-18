@@ -94,7 +94,7 @@ public class ManagementView extends JFrame {
         chartBtn.setPreferredSize(new Dimension(110, 34));
         chartBtn.addActionListener(e -> onViewChart());
 
-        LinkIconButton githubBtn = new LinkIconButton("GH", "https://github.com/Babamosie333", "View on GitHub", "/icons/github.png");
+        LinkIconButton githubBtn = new LinkIconButton("GH", "https://github.com/Babamosie333/StudentMS-Java.git", "View on GitHub", "/icons/github.png");
 
         JPanel actionPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 8, 0));
         actionPanel.setBackground(Theme.card());
