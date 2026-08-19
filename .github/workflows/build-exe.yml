@@ -28,7 +28,7 @@ jobs:
 
       - name: Build .exe with jpackage
         run: |
-          jpackage --input target --main-jar StudentMS-1.0.0.jar --main-class sms.Main --name StudentMS --type exe --app-version 1.0.0
+          jpackage --input target --main-jar StudentMS-1.0.0.jar --main-class sms.Main --name StudentMS --type exe --app-version 1.0.0 --add-modules ALL-MODULE-PATH
 
       - name: Upload .exe as downloadable artifact
         uses: actions/upload-artifact@v4
